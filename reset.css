@@ -1,183 +1,26 @@
 /* =========================================================
-   GIVEXPERT RESET
+   GIVEXPERT RESET LIGHT
    À charger APRÈS le CSS GiveXpert
-   Objectif : neutraliser les styles visuels imposés
+   Sans !important
    ========================================================= */
 
-/* Titres / textes */
-.givexpert label,
-.givexpert h1,
-.givexpert h2,
-.givexpert h3,
-.givexpert footer,
-.givexpert .btn-link,
-.givexpert .type-h3 .nav-link,
-.givexpert .type-h3 .nav-link.active {
-  font-size: inherit !important;
-  font-weight: inherit !important;
-  line-height: inherit !important;
-  text-transform: none !important;
-  text-align: inherit !important;
-  color: inherit !important;
-  letter-spacing: inherit !important;
+.givexpert label {
+  font-weight: inherit;
 }
 
-/* Marges / paddings / bordures des titres */
 .givexpert h1,
 .givexpert h2,
 .givexpert h3 {
-  margin: 0 !important;
-  padding: 0 !important;
-  border: 0 !important;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-align: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-/* Footer */
 .givexpert footer {
-  border-top: 0 !important;
-}
-
-/* Inputs / selects / textarea */
-/* .givexpert .form-control,
-.givexpert .payzen-form-control,
-.givexpert .stripe-form-control,
-.givexpert input[type="email"],
-.givexpert input[type="number"],
-.givexpert input[type="password"],
-.givexpert input[type="text"],
-.givexpert select,
-.givexpert textarea,
-.givexpert .amount-box {
-  border-radius: inherit !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  height: auto !important;
-  min-height: 0 !important;
-  padding-top: inherit !important;
-  padding-bottom: inherit !important;
-  padding-left: inherit !important;
-  padding-right: inherit !important;
-  font-size: inherit !important;
-  font-family: inherit !important;
-  line-height: inherit !important;
-} */
-
-/* Textarea */
-/* .givexpert textarea {
-  min-height: 0 !important;
-  resize: vertical;
-} */
-
-/* Blocks / cartes */
-.givexpert .block {
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  padding: 0 !important;
-}
-
-.givexpert .block.margin-title,
-.givexpert .block.photo-collector.t-2c-2,
-.givexpert .block.photo-collector.t-1c-2 {
-  margin: 0 !important;
-}
-
-/* Boutons */
-.givexpert .btn-primary,
-.givexpert .btn-primary:hover,
-.givexpert .product .btn-group > .btn-group:last-child > .btn:first-child {
-  border-radius: inherit !important;
-  text-transform: none !important;
-}
-
-/* Liens */
-.givexpert .carousel-inner .item a {
-  color: inherit !important;
-}
-
-/* Containers utilitaires */
-.givexpert .no-padding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.givexpert .no-padding > [class*="col-"] {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* Amount */
-.givexpert .item .amount {
-  line-height: inherit !important;
-}
-
-/* Tabs / descriptions / contenus */
-.givexpert .nav.nav-tabs.gallery-tabs,
-.givexpert .product-description,
-.givexpert .tab-content.gallery-content {
-  margin-top: 0 !important;
-}
-
-.givexpert .panel-group .panel {
-  border-radius: inherit !important;
-}
-
-.givexpert #tax-exemption {
-  padding-top: 0 !important;
-}
-
-.givexpert #tax-exemption .nav.nav-tabs .nav-link {
-  border: 0 !important;
-}
-
-.givexpert #tax-exemption .nav.nav-tabs {
-  --bs-nav-tabs-border-radius: inherit !important;
-  border: 0 !important;
-}
-
-/* Responsive collector */
-@media (max-width: 768px) {
-  .givexpert #collector-tab {
-    margin-top: 0 !important;
-  }
-
-  .givexpert .block.photo-collector.t-1c-2 {
-    margin-top: 0 !important;
-  }
-}
-
-@media (max-width: 576px) {
-  .givexpert .block.photo-collector.t-1c-2 {
-    margin-top: 0 !important;
-  }
-}
-
-/* Vidéo / images */
-.givexpert .video-responsive-wrapper {
-  height: auto !important;
-  max-width: 100% !important;
-  overflow: visible !important;
-  padding-bottom: 0 !important;
-  position: relative !important;
-}
-
-.givexpert .video-responsive-wrapper iframe {
-  border: 0 !important;
-  height: auto !important;
-  left: auto !important;
-  position: static !important;
-  top: auto !important;
-  width: 100% !important;
-  aspect-ratio: 16 / 9;
-}
-
-.givexpert .image-responsive,
-.givexpert figure.image-responsive,
-.givexpert figure.image-responsive img {
-  display: block !important;
-  height: auto !important;
-  max-width: 100% !important;
-  margin: 0 !important;
+  border-top: 0;
 }
